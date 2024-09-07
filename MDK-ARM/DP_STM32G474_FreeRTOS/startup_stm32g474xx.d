@@ -1,0 +1,1 @@
+dp_stm32g474_freertos\startup_stm32g474xx.o: startup_stm32g474xx.s

@@ -25,9 +25,6 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-//#include "hrtim.h"
-//#include "sys_config.h"
-//#include "i2c.h"
 #include "usart.h"
 #include "stdio.h"
 #include "string.h"
@@ -155,11 +152,6 @@ void MX_FREERTOS_Init(void) {
 void StartDefaultTask(void *argument)
 {
   /* USER CODE BEGIN StartDefaultTask */
-	//uint8_t str_buf[64];
-	//uint8_t t = 1;
-	//uint8_t taskCount;
-	//size_t freeHeapSize = xPortGetFreeHeapSize();
-
   /* Infinite loop */
   for(;;)
   {
